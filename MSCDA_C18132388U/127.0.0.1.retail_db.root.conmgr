@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="127.0.0.1.retail_db.root"
+  DTS:DTSID="{0F03A063-88E5-40B3-ACCE-1435FCBE68F3}"
+  DTS:CreationName="ADO.NET:MySql.Data.MySqlClient.MySqlConnection, MySql.Data, Version=8.0.31.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d">
+  <DTS:PropertyExpression
+    DTS:Name="ConnectionString">@[$Project::retail_dbRoot_ConnectionString]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="server=127.0.0.1;user id=root;database=retail_db;">
+      <DTS:Password
+        DTS:Name="password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAATYxiqM5pNUWxPTTJcWZpzQAAAAACAAAAAAAQZgAAAAEAACAAAAACVFLBakNq4GyXsm7iHUw6I65PFyo0De0ZNMVkb84xxgAAAAAOgAAAAAIAACAAAADOxIngYezxwI++6H0XtoPS4KCAWfH33hxAsphH0IMafIAAAAB9KzAzL4BGbF4gVkihAylKEkaLIlJ10e2envFo3jVaSWOGrbWJS3qI9CvFLap7tBvtYNVN3HIumoUw6G458SFqK2aQbnd/vC3EGEeL+pu9I5drj9uKp5BrvznR5paWm1Zkg26sU0I060pqKgyB02S7UQWyS1Wz8/3Zu6k4lzpJy0AAAAB48sEo0cmj/+WQOvm8ktQuLMsfHm8SmTWGdvqGPIxBi07Scn7vJUqK0b/m4DEKcAmjt2rJ4qJsSN0Tj3CqV+/Y</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="ANDREAKINGS_MSSQLSERVER26.MSCDA_C18132388U"
+  DTS:DTSID="{41768E92-00D4-4DB0-ABDA-414AA02191AB}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=ANDREAKINGS\MSSQLSERVER26;Initial Catalog=MSCDA_C18132388U;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-MSCDA_C18132388U-{41768E92-00D4-4DB0-ABDA-414AA02191AB}ANDREAKINGS\MSSQLSERVER26.MSCDA_C18132388U;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
